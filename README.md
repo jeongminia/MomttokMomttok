@@ -3,6 +3,14 @@
 - 일기분석을 통한 감정분석 및 공감형 반응 제공
 - data : [감성대화말뭉치](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=86), 모두의 말뭉치-일기
 -------------------------
+## 팀원
+
+| Left-aligned  | Center-aligned | Right-aligned  |
+| :-----------: | :------------: | :------------: |
+| git status    |   git status   |    git status  |
+| 안정민          |    유재원        |      이가윤     |
+
+
 ## 💜 주제
 ### 배경
 <img width="685" alt="스크린샷 2024-05-10 오후 4 27 51" src="https://github.com/jeongmin1016/graduation_project/assets/109460178/6c9ee5dc-5e4c-47c5-933c-ed3b674ce9e7">
