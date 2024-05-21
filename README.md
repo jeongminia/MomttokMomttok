@@ -8,7 +8,9 @@
 |  **Modeling**     | **Back-end**       | **Front-end**      | 
 | :-----------: | :------------: | :------------: |
 | 안정민          |    유재원        |      이가윤     |
-| ![image](https://github.com/jeongmin1016/graduation_project/assets/109460178/c553458c-925d-4293-94dd-e7cf61768524) |   git status   |    ![image](https://github.com/jeongmin1016/graduation_project/assets/109460178/a8947a6f-1ce4-49df-920a-ba5bd2c474d5)  |
+| ![image](https://github.com/jeongmin1016/graduation_project/assets/109460178/05ac0e9e-0ff7-417c-9488-5a2569d4ee43)
+ |   ![image](https://github.com/jeongmin1016/graduation_project/assets/109460178/f1244564-bd77-44e8-92c9-d2ec0f84a509)
+   |    ![image](https://github.com/jeongmin1016/graduation_project/assets/109460178/a8947a6f-1ce4-49df-920a-ba5bd2c474d5)  |
 
 
 
