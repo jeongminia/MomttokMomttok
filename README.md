@@ -5,11 +5,12 @@
 -------------------------
 ## 팀원
 
-|  Modeling  | Back-end | Front-end  |
+|  Modeling     | Back-end       | Front-end      | 
 | :-----------: | :------------: | :------------: |
+| 안정민          |    유재원        |      이가윤     |
 | ![image](https://github.com/jeongmin1016/graduation_project/assets/109460178/c553458c-925d-4293-94dd-e7cf61768524)
     |   git status   |    git status  |
-| 안정민          |    유재원        |      이가윤     |
+
 
 
 ## 💜 주제
