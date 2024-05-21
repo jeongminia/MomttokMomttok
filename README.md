@@ -5,7 +5,7 @@
 -------------------------
 ## 팀원
 
-| Left-aligned  | Center-aligned | Right-aligned  |
+| Modeling  | Back-end | Front-end  |
 | :-----------: | :------------: | :------------: |
 | git status    |   git status   |    git status  |
 | 안정민          |    유재원        |      이가윤     |
