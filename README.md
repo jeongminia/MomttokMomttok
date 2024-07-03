@@ -1,11 +1,11 @@
 # graduation_project
 숙명여자대학교 IT 공학전공 졸업프로젝트 레포입니다.
-- 일기분석을 통한 감정분석 및 공감형 반응 제공
+- 일기분석을 통한 감정분석 및 LLM 공감형 반응 제공
 - data : [감성대화말뭉치](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=86), 모두의 말뭉치-일기
 -------------------------
 ## 💜 팀원
 
-|  **Modeling** | **Back-end**   | **Front-end**   | 
+|  **AI Modeling** | **Back-end**   | **Front-end**   | 
 | :-----------: | :------------: | :------------: |
 | 안정민        |    유재원        |      이가윤     |
 | ![image](https://github.com/jeongmin1016/graduation_project/assets/109460178/05ac0e9e-0ff7-417c-9488-5a2569d4ee43) |   ![image](https://github.com/jeongmin1016/graduation_project/assets/109460178/5cbfe072-eaea-4bdc-99f4-210644ef32fa)      | ![image](https://github.com/jeongmin1016/graduation_project/assets/109460178/a8947a6f-1ce4-49df-920a-ba5bd2c474d5)      |
