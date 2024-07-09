@@ -61,7 +61,6 @@ Django Rest Framework를 사용하여 Restful API 구축
 LSTM, KoBERT, KoELECTRA 중 가장 정확도 높은 모델인 KoELECTRA 모델을 선정함
 <img width="428" alt="image" src="https://github.com/jeongmin1016/MomttokMomttok/assets/112365313/926f527d-3962-46cf-913d-69d14d81361e">
 
-
 ### 2. AI 모델링
 KoGPT2와 GPT3.5 turbo 중에서 더 뛰어난 공감형 반응을 보인 GPT3.5 turbo 모델을 선정함
 <img width="429" alt="image" src="https://github.com/jeongmin1016/MomttokMomttok/assets/112365313/6e009dd4-68c6-437b-bd85-27e2bbd4bec3">
