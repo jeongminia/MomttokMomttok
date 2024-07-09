@@ -52,7 +52,7 @@ Django Rest Framework를 사용하여 Restful API 구축
 <img width="917" alt="drf" src="https://github.com/jeongmin1016/MomttokMomttok/assets/112365313/70e545f0-b1f5-44e5-9370-952e4fe488c7">
 
 ### 3. 카카오톡 소셜 로그인
-카카오톡 API를 사용한 소셜 로그인   
+카카오톡 API를 사용한 소셜 로그인
 <img width="374" alt="카카오 소셜 로그인" src="https://github.com/jeongmin1016/MomttokMomttok/assets/112365313/840dd058-e040-4041-96e8-c580a1e5c462">
 
 
