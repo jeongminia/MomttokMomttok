@@ -52,14 +52,15 @@ Django Rest Framework를 사용하여 Restful API 구축
 <img width="917" alt="drf" src="https://github.com/jeongmin1016/MomttokMomttok/assets/112365313/70e545f0-b1f5-44e5-9370-952e4fe488c7">
 
 ### 3. 카카오톡 소셜 로그인
-카카오톡 API를 사용한 소셜 로그인
+카카오톡 API를 사용한 소셜 로그인   
 <img width="374" alt="카카오 소셜 로그인" src="https://github.com/jeongmin1016/MomttokMomttok/assets/112365313/840dd058-e040-4041-96e8-c580a1e5c462">
 
 
 ## 💜 모델링
 ### 1. 감정분석
 LSTM, KoBERT, KoELECTRA 중 가장 정확도 높은 모델인 KoELECTRA 모델을 선정함
-<img width="430" alt="image" src="https://github.com/jeongmin1016/MomttokMomttok/assets/112365313/ec8e19ad-addc-4af7-a69b-ef6bb786b788">
+<img width="428" alt="image" src="https://github.com/jeongmin1016/MomttokMomttok/assets/112365313/926f527d-3962-46cf-913d-69d14d81361e">
+
 
 ### 2. AI 모델링
 KoGPT2와 GPT3.5 turbo 중에서 더 뛰어난 공감형 반응을 보인 GPT3.5 turbo 모델을 선정함
