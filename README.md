@@ -34,9 +34,6 @@
 - Front-end : `React`, `CSS`, `HTML`
 
 ## 💜 UI/UX
-<img width="431" alt="image" src="https://github.com/jeongmin1016/MomttokMomttok/assets/112365313/ed0787c5-5827-448a-875f-9b41b12a65ba">
+![Project (1)](https://github.com/jeongmin1016/MomttokMomttok/assets/109460178/a5d181a9-e46d-4a14-b1e4-54501d620093)
 
-<img width="428" alt="image" src="https://github.com/jeongmin1016/MomttokMomttok/assets/112365313/fe055e4d-7899-47cc-8d16-2037b30dee21">
-
-<img width="431" alt="image" src="https://github.com/jeongmin1016/MomttokMomttok/assets/112365313/6acc7f24-218f-4ab9-a7ea-d0f892cd9e9a">
-
+![Project (2)](https://github.com/jeongmin1016/MomttokMomttok/assets/109460178/94633c46-8a10-46b5-aad3-84c165635cd4)
