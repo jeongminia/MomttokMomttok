@@ -49,6 +49,11 @@
 ![Project (2)](https://github.com/jeongmin1016/MomttokMomttok/assets/109460178/94633c46-8a10-46b5-aad3-84c165635cd4)
 
 ### 💜 Back-end
-
+#### 1. 데이터베이스 설계 및 구축
+작성한 ERD를 바탕으로 MySQL에 테이블을 생성하고 Django와 연동하여 DB 생성
+#### 2. API 설계
+Django Rest Framework를 사용하여 Restful API 구축
+#### 3. 카카오톡 소셜 로그인
+카카오톡 API를 사용한 소셜 로그인   
 
 ### 💜 AI modeling
