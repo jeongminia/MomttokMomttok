@@ -26,14 +26,13 @@
 3. 아이 발달 과정에 관한 간략한 정보 전달을 통해 무지함으로부터 비롯될 스트레스를 경감시키고 내 아이의 성장과정을 기록할 수 있게 함
 
 ## 💜 소프트웨어 설계
-<img width="964" alt="Untitled" src="https://github.com/jeongmin1016/MomttokMomttok/assets/112365313/218104cd-b64c-49f1-a9fc-5568d770fc06">   
+![Project (1)](https://github.com/jeongmin1016/MomttokMomttok/assets/109460178/a5d181a9-e46d-4a14-b1e4-54501d620093)
 
-### 기술 스택
+#### 기술 스택
 - AI : `KoElectra`, `OpenAI`
 - Back-end : `Django`, `python`, `MySQL`
 - Front-end : `React`, `CSS`, `HTML`
 
 ## 💜 UI/UX
-![Project (1)](https://github.com/jeongmin1016/MomttokMomttok/assets/109460178/a5d181a9-e46d-4a14-b1e4-54501d620093)
 
 ![Project (2)](https://github.com/jeongmin1016/MomttokMomttok/assets/109460178/94633c46-8a10-46b5-aad3-84c165635cd4)
