@@ -39,8 +39,8 @@
 ## 💜 기술
 #### 기술 스택
 - AI : `KoElectra`, `OpenAI`
-- Back-end : `Django`, `python`, `MySQL`
-- Front-end : `React`, `CSS`, `HTML`
+- Back-end : `Django`, ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54), ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
+- Front-end : `React`, ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white), ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 
 ### 💜 UI/UX
 ![Project (5)](https://github.com/user-attachments/assets/fa2569b0-74bb-4990-9c33-d748f138290f)
