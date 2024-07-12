@@ -1,6 +1,5 @@
 # graduation_project
-숙명여자대학교 IT 공학전공 졸업프로젝트 레포입니다.
-- 임신 및 육아 중인 부모를 위한 자연어처리 기반 감정분석 다이어리 어플리케이션입니다.
+#### 임신 및 육아 중인 부모를 위한 자연어처리 기반 감정분석 다이어리 어플리케이션입니다.
 - 일기분석을 통한 감정분석 및 LLM 공감형 반응 제공
 - data : [감성대화말뭉치](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=86), 모두의 말뭉치-일기, 네이버 카페 <맘스홀릭> 크롤링
 -------------------------
