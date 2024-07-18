@@ -1,8 +1,7 @@
 #!/usr/bin/env python
-"""Django's command-line utility for administrative tasks."""
 import os
 import sys
-
+import getpass
 
 def main():
     """Run administrative tasks."""
@@ -15,8 +14,18 @@ def main():
             "available on your PYTHONPATH environment variable? Did you "
             "forget to activate a virtual environment?"
         ) from exc
-    execute_from_command_line(sys.argv)
 
+    # Django 설정 로드 후 API 키 설정
+    import django
+    django.setup()
+
+    from momttokback.views import set_api_key
+
+    # API 키 입력 받기
+    api_key = getpass.getpass("Please enter your OpenAI API key: ")
+    set_api_key(api_key)
+
+    execute_from_command_line(sys.argv)
 
 if __name__ == '__main__':
     main()

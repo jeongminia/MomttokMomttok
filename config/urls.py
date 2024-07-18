@@ -21,4 +21,5 @@ from config.views import index
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('momttokback.urls')),
+    path('accounts/', include('allauth.urls')),
 ]
