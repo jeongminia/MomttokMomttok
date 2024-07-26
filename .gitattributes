@@ -1,3 +1,0 @@
-*.pt filter=lfs diff=lfs merge=lfs -text
-momttokback/models/model|KoElectra_0527.pt filter=lfs diff=lfs merge=lfs -text
-momttokback/models/model_KoElectra_0527.pt filter=lfs diff=lfs merge=lfs -text
