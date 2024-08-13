@@ -34,10 +34,17 @@ tokenizer = ElectraTokenizer.from_pretrained(model_name)
 model = ElectraForSequenceClassification.from_pretrained(model_name, num_labels=6)
 model_path = 'momttokback/models/model_KoElectra_0527.pt'
 device = torch.device('cpu')
-model.load_state_dict(torch.load(model_path, map_location=device))
+
+try:
+    model.load_state_dict(torch.load(model_path, map_location=device))
+except Exception as e:
+    print(f"Error loading model: {e}")
+
 model.to(device)
 model.eval()
-torch.save(model.state_dict(), 'model_KoElectra_0527.pt')
+
+# 모델을 다시 저장
+torch.save(model.state_dict(), model_path)
 
 def predict(predict_sentence):
     # 텍스트 클렌징
@@ -115,6 +122,7 @@ class AnalyzeAndResponseAPIView(APIView):
             }, status=status.HTTP_200_OK)
         except Exception as e:
             return Response({'error': str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
 class BabydataViewSet(viewsets.ModelViewSet):
     queryset = Babydata.objects.all()
     serializer_class = BabydataSerializer
