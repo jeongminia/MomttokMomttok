@@ -2,8 +2,7 @@ from rest_framework import viewsets, status
 from rest_framework.response import Response
 from rest_framework.decorators import api_view, action
 from rest_framework.views import APIView
-from rest_framework.permissions import IsAuthenticated
-from rest_framework.permissions import AllowAny
+from rest_framework.permissions import IsAuthenticated, AllowAny
 from django.shortcuts import get_object_or_404
 from .serializer import *
 from .models import *
@@ -36,7 +35,8 @@ model_path = 'momttokback/models/model_KoElectra_0527.pt'
 device = torch.device('cpu')
 
 try:
-    model.load_state_dict(torch.load(model_path, map_location=device))
+    state_dict = torch.load(model_path, map_location=device)  # State dict 불러오기
+    model.load_state_dict(state_dict)  # 모델에 로드
 except Exception as e:
     print(f"Error loading model: {e}")
 
@@ -97,8 +97,7 @@ def generate_comment(sentence, api_key):
 
 class AnalyzeAndResponseAPIView(APIView):
     def post(self, request):
-        diary_id = request.data.get('diary_id') #요청에서 일기의 id 가져오기
-        #content = request.data.get('content', '')
+        diary_id = request.data.get('diary_id')  # 요청에서 일기의 id 가져오기
         if not diary_id:
             return Response({'error': 'No content provided'}, status=status.HTTP_400_BAD_REQUEST)
         try:
@@ -109,7 +108,7 @@ class AnalyzeAndResponseAPIView(APIView):
         content = diary.content
 
         try:
-            #API키를 전역변수에서 가져옴
+            # API키를 전역변수에서 가져옴
             api_key = get_api_key()
             if not api_key:
                 return Response({'error': 'No API key provided'}, status=status.HTTP_400_BAD_REQUEST)
@@ -163,24 +162,21 @@ class UserViewSet(viewsets.ModelViewSet):
     serializer_class = UserSerializer
 
 class KakaoLogin(APIView):
-    permission_classes = [AllowAny] #누구나 이 뷰에 접근 가능
+    permission_classes = [AllowAny]  # 누구나 이 뷰에 접근 가능
 
-    #사용자가 카톡 로그인 후 이 엔드포인트로 요청 보냄->이 메소드 호출
+    # 사용자가 카톡 로그인 후 이 엔드포인트로 요청 보냄->이 메소드 호출
     def post(self, request):
-        #request.data.get('key): 클라이언트가 보낸 데이터 추출
-        social_id = request.data.get('social_id') #사용자의 카카오톡 소셜 아이디
-        provider = request.data.get('provider') #소셜 로그인 제공자(여기서는 'kakao')
-        token = request.data.get('token') #사용자의 인증 토큰
+        social_id = request.data.get('social_id')  # 사용자의 카카오톡 소셜 아이디
+        provider = request.data.get('provider')  # 소셜 로그인 제공자(여기서는 'kakao')
+        token = request.data.get('token')  # 사용자의 인증 토큰
 
         if not (social_id and provider and token):
             return Response({'error': 'Incomplete data'}, status=status.HTTP_400_BAD_REQUEST)
 
-        #social_id, provider 기준으로 사용자 레코드를 가져오거나, 없으면 새로 만듦
+        # social_id, provider 기준으로 사용자 레코드를 가져오거나, 없으면 새로 만듦
         user, created = User.objects.get_or_create(
             social_id=social_id,
             provider=provider,
-            #만약 해당 'social_id'와 'providers'를 가진 사용자가 이미 존재하면,
-            #'created'는 false가 되고, 존재하지 않으면 True
             defaults={
                 'token': token,
             }
