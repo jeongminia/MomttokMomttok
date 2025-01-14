@@ -35,6 +35,10 @@
 ### 소프트웨어 설계
 ![Project (1)](https://github.com/jeongmin1016/MomttokMomttok/assets/109460178/a5d181a9-e46d-4a14-b1e4-54501d620093)
 
+## 💜 Demo Video
+https://github.com/user-attachments/assets/5e3b5a65-bcd4-46f6-8084-4deb9d8e96ed
+
+
 ## 💜 기술
 #### 기술 스택
 - AI : `KoElectra`, `OpenAI`
